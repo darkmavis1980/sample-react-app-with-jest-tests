@@ -10,5 +10,6 @@ const wrapper = shallow(<SimpleComponent />);
 describe('(Component) SimpleComponent', () => {
   it('should render the component', () => {
     expect(wrapper.find('div').length).toBe(1);
+    expect(wrapper.find('div > h1').length).toBe(1);
   });
 });

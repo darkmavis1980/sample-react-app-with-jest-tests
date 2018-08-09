@@ -36,9 +36,9 @@ class ComplexComponent extends Component {
     return (
       <div>
         <h3>{MakeUppercase(this.props.title)}</h3>
-        <Button onClick={this.clickHandler}>Click me!</Button>
-        <Button onClick={this.decrease}>-</Button>
-        <Button onClick={this.increase}>+</Button>
+        <Button id="click-me-btn" onClick={this.clickHandler}>Click me!</Button>
+        <Button id="decrease-btn" onClick={this.decrease}>-</Button>
+        <Button id="increase-btn" onClick={this.increase}>+</Button>
         <p>{this.state.counter}</p>
       </div>
     );
