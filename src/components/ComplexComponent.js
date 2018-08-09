@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import { Button } from 'semantic-ui-react'
-import { MakeUppercase } from './Utilities';
+import { MakeUppercase, ConsoleStuff } from './Utilities';
 
 class ComplexComponent extends Component {
   constructor(props) {
@@ -17,7 +17,7 @@ class ComplexComponent extends Component {
   }
 
   clickHandler() {
-    console.log(this.state.test);
+    ConsoleStuff(this.state.test);
   }
 
   decrease() {

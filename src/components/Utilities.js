@@ -1,7 +1,7 @@
-const MakeUppercase = (word) => {
+export function MakeUppercase(word) {
   return word.toUpperCase();
 }
 
-export {
-  MakeUppercase
+export function ConsoleStuff(log) {
+  console.log(log);
 }
