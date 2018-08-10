@@ -1,4 +1,4 @@
-# Unit Testing in Pond5
+# Unit Testing with Jest & Enzyme
 
 ## What are Jest and Enzyme?
 
@@ -254,7 +254,3 @@ describe('ConsoleStuff', () => {
 ## 100% Coverage is hard, if impossible some times, but always aim to 110% coverage
 
 ![Set the volume to 11](https://support.discordapp.com/hc/article_attachments/360008528552/spinal_tap.gif)
-
-
-
-## Current state in Pond5
