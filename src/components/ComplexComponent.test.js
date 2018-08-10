@@ -1,11 +1,16 @@
 import React from 'react';
 import ComplexComponent from './ComplexComponent';
 import * as Utilities from './Utilities';
+import renderer from 'react-test-renderer';
 
 const title = 'test';
 const wrapper = shallow(<ComplexComponent title={title} />);
 
 describe('(Component) ComplexComponent', () => {
+
+  const tree = renderer.create(
+    <ComplexComponent title={title} />
+  ).toJSON();
 
   beforeEach(() => {
     wrapper.setState({counter: 0});
@@ -14,6 +19,7 @@ describe('(Component) ComplexComponent', () => {
   describe('render()', () => {
     it('should render the component', () => {
       expect(wrapper.find('div').length).toBe(1);
+      expect(tree).toMatchSnapshot();
     });
 
     it('should render the title', () => {
