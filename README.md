@@ -5,7 +5,7 @@
 * Jest is a Testing Framework create by Facebook that act as a test runner, assertion library and mocking library
 * Enzyme is a JavaScript Testing utility for React created by Airbnb that provide additional testing utilities to interact with elements
 
-## Why doing unit testing?
+## Why we need unit testing?
 
 * Find bugs easier
 * Quality of Code
@@ -13,9 +13,15 @@
 * It helps other developers to understand what you have coded
 * It reduces the costs on the long run because of points above
 
+
+
+## What should I test?
+
+* Everything, but not the children components, as they already have their own tests
+
 ## Warning!
 
-Some code ahead!
+Code ahead!
 
 ![Warning](https://gifer.com/i/7DcD.gif)
 
@@ -205,6 +211,10 @@ describe('(Component) ComplexComponent', () => {
 ## Let's take some snapshots
 
 Snapshots are committed with the code, and they should live alongside the unit tests.
+
+They store a json representation of the rendered component, and can be used to compare the code generated with the code you are testing.
+
+They can be updated by Jest if necessary or if the template changes.
 
 ## Not only components
 
