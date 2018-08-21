@@ -249,8 +249,11 @@ describe('ConsoleStuff', () => {
 });
 ```
 
- 
+## Coverage
 
-## 100% Coverage is hard, if impossible some times, but always aim to 110% coverage
+`jest --coverage` or `npm run coverage` will create the **Coverage** report.
+It uses [Istanbul](https://istanbul.js.org/) to create the report that can be outputted on the console, or generate a html report, and exports to Cobertura and Clover formats as well.
+
+### 100% Coverage is hard, if impossible some times, but always aim to 110% coverage
 
 ![Set the volume to 11](https://support.discordapp.com/hc/article_attachments/360008528552/spinal_tap.gif)

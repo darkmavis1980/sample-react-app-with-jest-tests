@@ -1,5 +1,5 @@
 import React from 'react';
-import Enzyme, { shallow, render, mount } from 'enzyme'; // not needed when jest.setup.js is set
+import Enzyme, { shallow } from 'enzyme'; // not needed when jest.setup.js is set
 import Adapter from 'enzyme-adapter-react-16'; // not needed when jest.setup.js is set
 import SimpleComponent from './SimpleComponent';
 
