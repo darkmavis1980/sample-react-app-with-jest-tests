@@ -7,31 +7,25 @@ exports[`(Component) ComplexComponent render() should render the component 1`] =
   </h3>
   <button
     className="ui button"
-    disabled={undefined}
     id="click-me-btn"
     onClick={[Function]}
     role="button"
-    tabIndex={undefined}
   >
     Click me!
   </button>
   <button
     className="ui button"
-    disabled={undefined}
     id="decrease-btn"
     onClick={[Function]}
     role="button"
-    tabIndex={undefined}
   >
     -
   </button>
   <button
     className="ui button"
-    disabled={undefined}
     id="increase-btn"
     onClick={[Function]}
     role="button"
-    tabIndex={undefined}
   >
     +
   </button>
