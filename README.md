@@ -23,7 +23,7 @@
 
 Code ahead!
 
-![Warning](https://gifer.com/i/7DcD.gif)
+![Warning](https://media1.giphy.com/media/3ov9k9Ss9N3wO6FQ7C/giphy.gif)
 
 ## Simple example
 
