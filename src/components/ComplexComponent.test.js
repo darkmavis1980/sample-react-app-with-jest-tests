@@ -42,7 +42,7 @@ describe('(Component) ComplexComponent', () => {
       expect(spy).toHaveBeenCalled();
     });
 
-    it('should call the setState if the user clicks on the second and third button', () => {
+    xit('should call the setState if the user clicks on the second and third button', () => {
       const spy = jest.spyOn(ComplexComponent.prototype,'setState');
       wrapper.find('#decrease-btn').simulate('click');
       expect(spy).toHaveBeenCalled();

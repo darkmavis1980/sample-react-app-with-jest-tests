@@ -9,7 +9,6 @@ exports[`(Component) ComplexComponent render() should render the component 1`] =
     className="ui button"
     id="click-me-btn"
     onClick={[Function]}
-    role="button"
   >
     Click me!
   </button>
@@ -17,7 +16,6 @@ exports[`(Component) ComplexComponent render() should render the component 1`] =
     className="ui button"
     id="decrease-btn"
     onClick={[Function]}
-    role="button"
   >
     -
   </button>
@@ -25,7 +23,6 @@ exports[`(Component) ComplexComponent render() should render the component 1`] =
     className="ui button"
     id="increase-btn"
     onClick={[Function]}
-    role="button"
   >
     +
   </button>
